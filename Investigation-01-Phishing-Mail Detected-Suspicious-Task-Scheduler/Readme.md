@@ -88,8 +88,7 @@ The attachment hash was submitted to VirusTotal and the file was executed in the
 - The attachment was confirmed to be malicious.
 
 **Evidence**
-
-See `screenshots/05-virustotal-analysis.png`
+![VirusTotal](screenshots/05-virustotal-analysis.png)
 
 ---
 
