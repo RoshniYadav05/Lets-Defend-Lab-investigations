@@ -30,7 +30,7 @@ The alert indicated that the requested URL contained the string **passwd**, whic
 
 **Evidence**
 
-![Alert](screenshots/01_alert_details.png)
+![Alert](screenshot/01_alert_details.png)
 
 ---
 
@@ -46,7 +46,7 @@ The request targeted an internal web server.
 
 **Evidence**
 
-![Incident](screenshots/02_incident_details.png)
+![Incident](screenshot/02_incident_details.png)
 
 ---
 
@@ -70,7 +70,7 @@ The request reached the server, but there was no evidence that the requested fil
 
 **Evidence**
 
-![Raw Log](screenshots/03_http_request.png)
+![Raw Log](screenshot/03_http_request.png)
 
 ---
 
@@ -86,7 +86,7 @@ This step confirmed the endpoint information associated with the investigation.
 
 **Evidence**
 
-![Endpoint](screenshots/04_endpoint_information.png)
+![Endpoint](screenshot/04_endpoint_information.png)
 
 ---
 
@@ -127,7 +127,7 @@ Although the request reached the web server, the server returned:
 - Response Size: **0 Bytes**
 
 No evidence indicated that the requested file was disclosed.
-![Analysts (my) note after investigation ](screenshots/05_analyst_notes.png)
+![Analysts (my) note after investigation ](screenshot/05_analyst_notes.png)
 
 ---
 
@@ -140,4 +140,4 @@ The web application accepted user-controlled input through the `file` parameter 
 # Conclusion
 
 The investigation confirmed a **True Positive Local File Inclusion (LFI) attack attempt**. The malicious request targeted the internal web server using the payload `../../../../etc/passwd`. Although the request was permitted, the server returned **HTTP 500 Internal Server Error** with a **0-byte response**, indicating that there is no evidence the sensitive file was successfully accessed. The attack was determined to be unsuccessful.
-![Case closed ](screenshots/06_case_closed.png)
+![Case closed ](screenshot/06_case_closed.png)
