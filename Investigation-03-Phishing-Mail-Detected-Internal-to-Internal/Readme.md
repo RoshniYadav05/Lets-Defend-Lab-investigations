@@ -1,4 +1,4 @@
-# Investigation-02: Phishing Mail Detected - Internal to Internal
+# Investigation-03: Phishing Mail Detected - Internal to Internal
 
 ## Overview
 
