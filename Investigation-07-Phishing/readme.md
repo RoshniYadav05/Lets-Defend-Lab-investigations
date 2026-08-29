@@ -12,7 +12,7 @@
 **Result:** ✅ True Positive
 **Playbook Score:** 10/10 (100% Success Rate)
 
-![alert details](screenshots/01-alert-details.png)
+![Alert Details](screenshots/01-alert-details.png)
 ---
 
 ## 🎯 Investigation Objective
@@ -113,7 +113,7 @@ The following action was taken:
 **Has Anyone Accessed IP/URL/Domain?**
 ➡️ Accessed
 
-![Result](screenshots/03-result.png)
+![SOC104 Alert Details](screenshots/03-result.png)
 ---
 
 ## 📝 Analyst Note
